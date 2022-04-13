@@ -166,7 +166,7 @@ sendValues(pom.getinstanceLogin().getPassword(), adacDataDriven.getExcelValue(0,
 	@Then("^user Clicks The Login Again Link And It Navigates To Login Page$")
 	public void user_Clicks_The_Login_Again_Link_And_It_Navigates_To_Login_Page() throws Throwable {
 	   WebElement loginagain = driver.findElement(By.xpath("//a[text()='Click here to login again']"));
-	   loginagain.click();	
+	   loginagain	
 	
 	}
 	
