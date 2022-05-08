@@ -22,3 +22,6 @@ public class FileManagerReader {
 	
 	
 }
+{
+sysout.println("Hello World")
+}
